@@ -14,8 +14,9 @@
   padding: 0;
 }
 
-.pro-skills img {
+.pro-skills ul li img {
   max-width: 50px;
+  max-height: 50px;
   margin: 0 0.5rem;
 }
 

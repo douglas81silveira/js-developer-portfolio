@@ -33,19 +33,26 @@
     <main class="main">
       <header class="header">
         <img
-          src="assets/img/my-photo.jpg"
-          alt="Foto de Douglas S Silveira"
+          src="assets/img/my-photo.png"
+          alt="Foto"
           class="photo"
+          id="profile.photo"
         />
 
-        <h1 class="title">Olá, <br />eu sou Douglas S Silveira</h1>
+        <h1 class="title">
+          Olá, <br />eu sou <span id="profile.name">Carregando...</span>
+        </h1>
 
         <div class="info">
-          <p class="job">Investigador na PCMG</p>
-          <p class="location">Minas Gerais - BR</p>
-          <p class="phone"><a href="tel:(31)99999-9999">(31)99999-9999</a></p>
+          <p class="job" id="profile.job">Carregando...</p>
+          <p class="location" id="profile.location">Carregando...</p>
+          <p class="phone">
+            <a href="tel:(31)99999-9999" id="profile.phone">Carregando...</a>
+          </p>
           <p class="email">
-            <a href="mailto:exemplo@mail.com">exemplo@mail.com</a>
+            <a href="mailto:exemplo@mail.com" id="profile.email"
+              >Carregando...</a
+            >
           </p>
         </div>
       </header>
@@ -58,55 +65,14 @@
           <div class="skills">
             <section class="pro-skills">
               <h3>Habilidades profissionais:</h3>
-              <ul>
-                <li>
-                  <img
-                    src="assets/img/icons/react.svg"
-                    alt="react"
-                    title="react"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="assets/img/icons/java.svg"
-                    alt="java"
-                    title="java"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="assets/img/icons/dotnet.svg"
-                    alt="dotnet"
-                    title="dotnet"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="assets/img/icons/python.svg"
-                    alt="python"
-                    title="python"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="assets/img/icons/nodejs.svg"
-                    alt="nodejs"
-                    title="nodejs"
-                  />
-                </li>
-                <li>
-                  <img src="assets/img/icons/aws.svg" alt="aws" title="aws" />
-                </li>
-              </ul>
+              <ul id="profile.skills.hardSkills"></ul>
             </section>
             <section class="ps-skills">
               <h3>Habilidades pessoais:</h3>
-              <ul>
-                <li>Liderança</li>
-                <li>Comunicação</li>
-                <li>Organização</li>
-                <li>Trabalho em equipe</li>
-                <li>Flexibilidade</li>
+              <ul id="profile.skills.softSkills">
+                <li>Carregando...</li>
+                <li>Carregando...</li>
+                <li>Carregando...</li>
               </ul>
             </section>
           </div>
