@@ -35,13 +35,23 @@
   "languages": ["Português BR", "Inglês (intermediário)"],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Projeto estilo Buzzfeed em Typescript",
+      "url": "https://github.com/douglas81silveira/projeto-buzzfeed",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Pokedex criada em HTML, CSS e Javascript",
+      "url": "https://github.com/douglas81silveira/js-developer-pokedex",
+      "github": true
+    },
+    {
+      "name": "Portfólio criado em HTML, CSS e Javascript",
+      "url": "https://github.com/douglas81silveira/js-developer-portfolio",
+      "github": true
+    },
+    {
+      "name": "Protótipo de blog em Angular",
+      "url": "https://github.com/douglas81silveira/angular-blog",
       "github": true
     }
   ],

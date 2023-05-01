@@ -40,9 +40,35 @@ function updateHardSkills(profileData) {
     .join("");
 }
 
+function updateLanguages(profileData) {
+  const languages = document.getElementById("languages");
+  languages.innerHTML = profileData.languages
+    .map((language) => `<li>${language}</li>`)
+    .join("");
+}
+
+function updatePortfolio(profileData) {
+  const portfolio = document.getElementById("portfolio");
+  portfolio.innerHTML = profileData.portfolio
+    .map(
+      (portfolio) =>
+        `<li>
+          <h3 class="title ${portfolio.github ? "github" : ""}">
+            ${portfolio.name}
+          </h3>
+          <a href="${portfolio.url}" target="_blank">
+            ${portfolio.url}
+          </a>
+        </li>`
+    )
+    .join("");
+}
+
 (async () => {
   const profileData = await fetchingProfileData();
   updateProfileInfo(profileData);
   updateSoftSkills(profileData);
   updateHardSkills(profileData);
+  updateLanguages(profileData);
+  updatePortfolio(profileData);
 })();
