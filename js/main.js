@@ -64,6 +64,20 @@ function updatePortfolio(profileData) {
     .join("");
 }
 
+function updateProExperiences(profileData) {
+  const experiences = document.getElementById("experiences");
+  experiences.innerHTML = profileData.professionalExperience
+    .map(
+      (experience) =>
+        `<li>
+          <h3 class="title">${experience.name}</h3>
+          <span class="period">${experience.period}</span>
+          <p>${experience.description}</p>
+    </li>`
+    )
+    .join("");
+}
+
 (async () => {
   const profileData = await fetchingProfileData();
   updateProfileInfo(profileData);
