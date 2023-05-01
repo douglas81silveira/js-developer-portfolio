@@ -20,7 +20,7 @@ body {
 
 @font-face {
   font-family: "Neue Machina";
-  src: url("/assets/fonts/NeueMachina-Regular.otf");
+  src: url("../fonts/NeueMachina-Regular.otf");
 }
 
 .main {
@@ -33,7 +33,7 @@ body {
 .main::before,
 .main::after {
   content: "";
-  background-image: url("/assets/img/background.svg");
+  background-image: url("../img/background.svg");
   background-repeat: no-repeat;
   background-size: contain;
   position: fixed;
